@@ -610,6 +610,7 @@ img {
 
 .subscribe-container-text {
     font-weight: 500;
+    line-height: 1.5;
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #fff;
@@ -634,6 +635,7 @@ img {
     letter-spacing: 0.04em;
     padding-left: 16px;
     color: #ffffff;
+    background-color: transparent;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
@@ -654,10 +656,11 @@ img {
     gap: 16px;
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background-color: #4d5ae5;
     font-weight: 500;
+    line-height: 1.5;
     font-size: 16px;
     letter-spacing: 0.04em;
     text-align: center;
@@ -676,6 +679,7 @@ img {
 
 .subscribe-btn-icon {
     fill: #fff;
+    margin-left: 16px;
 
 }
 
