@@ -866,6 +866,7 @@ img {
 }
 
 .modal-btn-second {
+    margin: 0 auto;
     display: block;
     min-width: 169px;
     height: 56px;
