@@ -798,10 +798,15 @@ img {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-icon:hover,
+/* .input-icon:hover, */
 .input-icon:focus {
-    border: 1px solid #4d5ae5;
+    /* border: 1px solid #4d5ae5; */
     fill: #4d5ae5;
+}
+
+.label-icon:hover,
+.label-icon:focus {
+    fill: #4D5AE5;
 }
 
 .container-comment {
