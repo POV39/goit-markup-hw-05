@@ -798,6 +798,12 @@ img {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
+.input-icon:focus+.label-icon {
+    fill: #4D5AE5;
+}
+
+
 .input-icon:hover,
 .input-icon:focus {
     border: 1px solid #4d5ae5;
